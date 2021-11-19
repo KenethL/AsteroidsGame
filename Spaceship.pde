@@ -35,7 +35,6 @@ class Spaceship extends Floater{
     if(myYspeed < -8){
       myYspeed = -8;
     }
-      System.out.println(myPointDirection);
   }
   public void dash(double x, double y){
     myXspeed = 0;
