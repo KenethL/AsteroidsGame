@@ -31,7 +31,7 @@ public void draw()
      jacobs.remove(i);
      i--;
    }
-   else if (jacobs.get(i).getMySize() <= 0){
+   else if (jacobs.get(i).getMySize() <= 1){
      jacobs.remove(i);
      i--;
    }
