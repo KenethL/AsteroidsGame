@@ -1,4 +1,4 @@
-class Spaceship extends Floater{ 
+class Spaceship extends Floater{  
    public Spaceship(){
     corners = 4;
     xCorners = new int[corners];
@@ -59,5 +59,14 @@ class Spaceship extends Floater{
   }
   public double getMyCenterY(){
     return myCenterY;
+  }
+  public double getMyXspeed(){
+    return myXspeed;
+  }
+  public double getMyYspeed(){
+    return myYspeed;
+  }
+  public double getMyPointDirection(){
+    return myPointDirection;
   }
 }
