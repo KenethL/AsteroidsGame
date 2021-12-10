@@ -1,5 +1,5 @@
 class Bullet extends Floater{
-  int myLife;
+  protected int myLife;
   Bullet(){
   }
    Bullet(Spaceship theShip){
